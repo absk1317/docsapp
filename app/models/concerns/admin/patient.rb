@@ -12,7 +12,9 @@ module Admin::Patient
             %w[active cured revisit]
           end
         end
-        field :appointments, :simple_has_many
+        field :appointments do
+          hide
+        end
       end
       edit do
         include_all_fields
