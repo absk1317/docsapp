@@ -1,24 +1,9 @@
-# README
+### Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run the app on your local system:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. install ruby version 2.6.0 and activate it, if its not already there.
+2. run `gem install bundler`, if not already.
+3. run `bundle` # install all required gems.
+4. run `rake db:create db:migrate` to set up the database.
+5. run `rails s` and you are good to go.!
